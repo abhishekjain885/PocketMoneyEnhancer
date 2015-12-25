@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PocketMoneyEnhancer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1390387444620525</string>
+    <string name="title_activity_screen">Screen</string>
+    <string name="title_activity_user_display">UserDisplayActivity</string>
+    <string name="title_activity_logo">LogoActivity</string>
+    <string name="intro">The competition expects the students to put on their thinking and creative hats.
+    The students have to make a logo for a web solutions company. Best logo will be given a Prize</string>
+    <string name="Tagline">The competition expects the students to put on their thinking and creative hats.
+    The students have to pitch/suggest a tagline for a web solutions company. Best Tagline will be given a Prize.</string>
+    <string name="Selfie">A Fun event just to go with the flow of the world. Selfie is the in-thing and easy way earn prizes and rewards.</string>
+    <string name="app">A new Startup is in the town.You are required to give ideas for their business android app</string>
+    <string name="Writer">Show us the writer in you. Deliver a great piece of literature concerning save mother earth
+    for an NGO "EARTH SAVIOURS"</string>
+    <string name="title_activity_tagline">Tagline</string>
+    <string name="title_activity_selfie">Selfie</string>
+    <string name="title_activity_writing">Writing</string>
+    <string name="title_activity_appidea">Appidea</string>
+    <string name="title_activity_redeem">Redeem</string>
+
+</resources>

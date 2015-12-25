@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhishek.pocketmoneyenhancer" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ion"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".Screen"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name=".UserDisplayActivity"
+            android:label="@string/title_activity_user_display" >
+        </activity>
+        <activity
+            android:name=".LogoActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".Tagline"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".Selfie"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".Writing"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".Appidea"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".Redeem"
+            android:label="@string/title_activity_redeem" >
+        </activity>
+    </application>
+
+</manifest>

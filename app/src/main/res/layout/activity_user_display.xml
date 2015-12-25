@@ -1,0 +1,154 @@
+<com.skyfishjy.library.RippleBackground
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content"
+    app:rb_color="#0099CC"
+    app:rb_radius="45dp"
+    app:rb_rippleAmount="4"
+    app:rb_duration="3000"
+    app:rb_scale="6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:padding="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="List of Recent Competitions"
+            android:textSize="30dp"
+            android:id="@+id/tv"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center"
+                    android:text="Logo Making"
+                    android:alpha="1.0"
+                    android:id="@+id/but1"
+                    android:background="@drawable/logo1"/>
+
+                </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A Best Tagline?"
+                    android:gravity="bottom|center"
+                    android:background="@drawable/tagline"
+                    android:id="@+id/but2"
+                    android:alpha="1.0"/>
+
+            </FrameLayout>
+
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Click Your Best Snap !"
+                    android:background="@drawable/selfie"
+                    android:alpha="1.0"
+                    android:id="@+id/but3"
+                    android:gravity="bottom|center"
+                    />
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A Writer In You :D"
+                    android:id="@+id/but4"
+                    android:background="@drawable/writing"
+                    android:gravity="bottom|center"
+                    android:alpha="1.0"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A Best App Idea"
+                    android:background="@drawable/appidea"
+                    android:alpha="1.0"
+                    android:id="@+id/but5"
+                    android:gravity="bottom|center"
+                    />
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="More competitions To Come soon"
+                    android:alpha="1.0"
+                    android:id="@+id/but6"
+                    android:gravity="bottom|center"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+</com.skyfishjy.library.RippleBackground>

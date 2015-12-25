@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.abhishek.pocketmoneyenhancer.UserDisplayActivity">
+    <item android:id="@+id/Logout" android:title="logout"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/Profile" android:title="Profile"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/ContactUs" android:title="Contact Us"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/Reedem" android:title="Redeem"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
